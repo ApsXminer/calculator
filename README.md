@@ -11,7 +11,7 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/ApsXminer"><img src="https://img.shields.io/github/stars/ApsXminer/calculator?color=yellow&style=for-the-badge" /></a>
+  <a href="https://discord.gg/3xzPkYHd9U" target="_blank"><img src="https://img.shields.io/discord/1361584465645928549?label=Join%20CodeX%20Community&logo=discord&style=for-the-badge"></a>
   <a href="https://github.com/ApsXminer/web-calculator"><img src="https://img.shields.io/github/forks/ApsXminer/calculator?color=blue&style=for-the-badge" /></a>
   <a href="https://github.com/ApsXminer/web-calculator"><img src="https://img.shields.io/github/license/ApsXminer/calculator?style=for-the-badge" /></a>
 </p>
