@@ -87,7 +87,7 @@ Give proper credit and help support open-source contributions! 🙏
 ## 🌍 Socials
 
 <p align="center">
-  <a href="https://dsc.gg/codexsupport"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discord/discord-original.svg" width="40"/></a>&nbsp;
+  <a href="https://dsc.gg/codexsupport"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" width="40"/></a>&nbsp;
   <a href="https://github.com/ApsXminer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40"/></a>&nbsp;
   <a href="https://www.youtube.com/@code_x_ownz"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" width="40"/></a>
 </p>
