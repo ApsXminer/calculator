@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator By Code X</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/Img/calc.png" type="image/png">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="top">
+        <div class="logo">
+            <a href="calculator.html">
+        <img src="/Img/calc.png" alt="Calculator Icon" style="width: 100px; height: 100px; display: block; margin: auto;">
+    </a>
+        </div>
+        <div class="logo">
+            <a href="calculator.html">
+        <img src="/Img/calc.png" alt="Calculator Icon" style="width: 100px; height: 100px; display: block; margin: auto;">
+    </a>
+    </div>
+        <h1 style="color: white; text-align: center;">Calculator By <b style="color: red; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Code X</b></h1>
+        <h2 style="color: white; text-align: center;">A Simple Calculator</h2>
+        <div class="social">
+            <a href="https://dsc.gg/codexsupport" target="_blank"><i class='bx bxl-discord-alt' id="discord"></i></a>
+            <a href="https://www.github.com/ApsXminer" target="_blank"><i class='bx bxl-github' id="github" ></i></a>
+            <a href="https://www.youtube.com/@code_x_ownz" target="_blank"><i class='bx bxl-youtube' id="youtube"></i></a>
+        </div>
+    </div>
+<div class="calc">
+    <div class="box">
+        <input type="text" id="display" readonly>
+        <button onclick="appendToDisplay('7')">7</button>
+        <button onclick="appendToDisplay('8')">8</button>
+        <button onclick="appendToDisplay('9')">9</button>
+        <button onclick="appendToDisplay('/')">/</button>
+        <button onclick="appendToDisplay('4')">4</button>
+        <button onclick="appendToDisplay('5')">5</button>
+        <button onclick="appendToDisplay('6')">6</button>
+        <button onclick="appendToDisplay('*')">*</button>
+        <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('2')">2</button>
+        <button onclick="appendToDisplay('3')">3</button>
+        <button onclick="appendToDisplay('-')">-</button>
+        <button onclick="appendToDisplay('0')">0</button>
+        <button onclick="appendToDisplay('.')">.</button>
+        <button onclick="appendToDisplay('+')">+</button>
+        <button onclick="clearAll()">AC</button>
+        <button onclick="appendToDisplay('(')">(</button>
+        <button onclick="appendToDisplay(')')">)</button>   
+        <button onclick="clearDisplay()" id="C">C</button>
+        <button onclick="calculate()" id="equal">=</button>
+    </div>    
+</div>
+<div class="footer">
+    <p style="color: white; text-align: center;">&copy; 2023 Code X. All rights reserved.</p>
+    <p style="color: white; text-align: center;">Made with ❤️ by Code X</p>
+    <p style="color: white; text-align: center;">Follow us on <a href="https://dsc.gg/codexsupport" target="_blank">Discord</a></p>
+    <p style="color: white; text-align: center;">Check out our <a href="https://www.github.com/ApsXminer" target="_blank">GitHub</a></p> 
+    <p style="color: white; text-align: center;">Subscribe to our <a href="https://www.youtube.com/@code_x_ownz" target="_blank">YouTube</a></p>
+    
+</div>
+</body>
+</html>

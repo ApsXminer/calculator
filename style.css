@@ -1,0 +1,202 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.top {
+    background-color: #333;
+    padding: 40px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    width: 100%;
+    max-width: auto;
+    position: relative;
+    overflow: hidden;
+}
+.top img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    transition: transform 0.3s ease;
+}
+.top img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+h1 {
+    font-size: 2.5em;
+    margin-top: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.calc {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    width: 100%;
+    max-width: auto;
+}
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+input[type="text"] {
+    grid-column: span 4;
+    padding: 15px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button:hover {
+    background-color: #666;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+button:focus {
+    outline: none;
+}
+button#equal {
+    background-color: green;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+button#equal :hover {
+    background-color: green;
+}
+button#equal :active {
+    background-color: #1e7e34;
+}
+button#equal :focus {
+    outline: none;
+}
+button#C {
+    background-color: #dc3545;
+}
+button#C:hover {
+    background-color: #c82333;
+}
+button#C:active {
+    background-color: #bd2130;
+}
+button#C:focus {
+    outline: none;
+}
+.social {
+    margin-top: 2px;
+    padding-left: 999px;
+    position: absolute;
+}   
+.social a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 2em;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.social a:hover {
+    color: #ccc;
+    transform: scale(1.2);
+}
+.social a:active {
+    transform: scale(0.8);
+}
+.social a:focus {
+    outline: none;
+}
+#discord {
+    color: #7289DA;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+#github {
+    color: #fff;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+#youtube {
+    color: #FF0000;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+#discord:hover {
+    color: #5b6eae;
+    transform: scale(1.2);
+}
+#github:hover {
+    color: #1a1a1a;
+    transform: scale(1.2);
+}
+#youtube:hover {
+    color: #cc0000;
+    transform: scale(1.2);
+}
+#discord:active {
+    color: #4b5b8a;
+}
+#github:active {
+    color: #1a1a1a;
+}
+#youtube:active {
+    color: #b30000;
+}
+#discord:focus {
+    outline: none;
+}
+#github:focus {
+    outline: none;
+}
+#youtube:focus {
+    outline: none;
+}
+.footer {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    width: 100%;
+    max-width: auto;
+}
+.footer p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+.footer a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.footer a:hover {
+    color: #fff;
+    transform: scale(1.2);
+}
+.footer a:active {
+    transform: scale(0.8);
+}
+.footer a:focus {
+    outline: none;
+}
