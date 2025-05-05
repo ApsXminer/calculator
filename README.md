@@ -1,7 +1,7 @@
 <h1 align="center">🔢 Calculator by <span style="color:red;">Code X</span></h1>
 
 <p align="center">
-  <img src="./Img/calc.png" width="100" alt="Calculator Icon" />
+  <img src="calc.png" width="100" alt="Calculator Icon" />
 </p>
 
 <p align="center">
@@ -11,9 +11,9 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/ApsXminer"><img src="https://img.shields.io/github/stars/ApsXminer/web-calculator?color=yellow&style=for-the-badge" /></a>
-  <a href="https://github.com/ApsXminer/web-calculator"><img src="https://img.shields.io/github/forks/ApsXminer/web-calculator?color=blue&style=for-the-badge" /></a>
-  <a href="https://github.com/ApsXminer/web-calculator"><img src="https://img.shields.io/github/license/ApsXminer/web-calculator?style=for-the-badge" /></a>
+  <a href="https://github.com/ApsXminer"><img src="https://img.shields.io/github/stars/ApsXminer/calculator?color=yellow&style=for-the-badge" /></a>
+  <a href="https://github.com/ApsXminer/web-calculator"><img src="https://img.shields.io/github/forks/ApsXminer/calculator?color=blue&style=for-the-badge" /></a>
+  <a href="https://github.com/ApsXminer/web-calculator"><img src="https://img.shields.io/github/license/ApsXminer/calculator?style=for-the-badge" /></a>
 </p>
 
 ---
